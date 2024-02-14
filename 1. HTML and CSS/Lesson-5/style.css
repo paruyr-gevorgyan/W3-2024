@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+header {
+  align-items: center;
+  background-color: #1abc9c;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 15px 70px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav img {
+  vertical-align: bottom;
+}
+
+a:link,
+a:visited {
+  color: #000000;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #ffffff;
+}
+
+.about {
+  display: flex;
+}
+
+.about-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.about-text h2 {
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.projects {
+  background-color: #dcffeb;
+  padding: 124px 64px;
+}
+
+.projects h2 {
+  margin-bottom: 50px;
+}
+
+.projects-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  position: relative;
+}
+
+.project::after {
+  background-color: #00000080;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.project:hover::after {
+  z-index: 1;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project hgroup {
+  bottom: 0;
+  color: #ffffff;
+  display: none;
+  padding: 20px 35px;
+  position: absolute;
+  z-index: 2;
+}
+
+.project h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.project p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.project:hover.project hgroup {
+  display: block;
+}
+
+.contacts {
+  padding: 80px 130px;
+}
+
+.contacts h2 {
+  margin-bottom: 50px;
+}
+
+.address {
+  display: flex;
+  gap: 30px;
+}
+
+.contact-block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.contact-icon {
+  height: 60px;
+  stroke: #f7654a;
+  width: 60px;
+}
+
+.contact-method {
+  color: #999999;
+}
+
+.contact-block p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+}
