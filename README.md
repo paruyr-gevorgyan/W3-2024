@@ -70,7 +70,7 @@ To use the Android emulator in Android Studio, virtualization needs to be enable
 
    **Note:** Enabling virtualization may require administrator privileges on your computer.
 
-### Steps
+### Android Emulator Instalation
 
 1. **Download Android Studio:**
 
