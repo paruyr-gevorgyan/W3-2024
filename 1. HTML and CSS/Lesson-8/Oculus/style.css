@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.main-header {
+  gap: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & nav a:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+a:link,
+a:visited {
+  color: grey;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero-section {
+  background-image: url('img/hero-img.png');
+  background-size: cover;
+  color: rgb(92, 92, 94);
+  height: calc(100vh - 80px);
+  padding: 230px 0 454px 360px;
+
+  & h1 {
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 110px;
+    margin-bottom: 10px;
+  }
+
+  & h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+    margin-bottom: 5px;
+  }
+
+  & .desc {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 50px;
+  }
+
+  & .buy {
+    display: flex;
+    margin-bottom: 10px;
+
+    & button {
+      background: linear-gradient(180deg, rgb(188, 16, 216), rgba(80, 0, 250, 0.93) 100%);
+      border: none;
+      color: rgb(246, 244, 245);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px;
+      padding: 21px 111px;
+    }
+
+    & span {
+      border-left: none;
+      border: 1px solid blue;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px;
+      padding: 21px 106px;
+    }
+  }
+
+  & .age {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+.usage {
+  margin: 100px auto;
+
+  & h3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  & h2 {
+    background-clip: text;
+    background: linear-gradient(180deg, rgb(188, 16, 216), rgba(80, 0, 250, 0.93));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
