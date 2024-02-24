@@ -111,7 +111,7 @@ To use the Android emulator in Android Studio, virtualization needs to be enable
    - Remove the virtual device if it is present.
    - Click on the _"Create Virtual Device"_ button and follow the steps to create a virtual device.
    - Select a system that includes the _"Google Play"_ icon and click next.
-   - On the _"Recommended"_ tab choose an _Tiramisu API Level 33 image_, click on _download_ icon, install it and then go to the next section.
+   - On the _"Recommended"_ tab, choose an _Tiramisu API Level 33 image_, click on the _download_ icon, install it, and then go to the next section.
    - Finish the installation. Once the virtual device is created, you can launch it from the AVD Manager.
 
 5. **Verify the installation:**
