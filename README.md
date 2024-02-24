@@ -40,7 +40,7 @@ To install application and start the project, follow these steps:
    yarn start
    ```
 
-4. After starting, you will find all the necessary information for development in the terminal or command prompt where the app is running. The terminal output will provide details and instructions related to your Expo project.
+4. After starting, you will find all the necessary information for development in the terminal or command prompt where the app is running. The terminal output will provide details and instructions related to project.
 
 <!-- TODO: Run app on devices via USB and WiFi -->
 
