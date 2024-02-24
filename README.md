@@ -131,4 +131,3 @@ To use the Android emulator in Android Studio, virtualization needs to be enable
    - After starting, you will find details and instructions related to project in the terminal or command prompt where the app is running, and press **"a"** to run android emulator.
    - Wait for the app to load and start running in the emulator. You can interact with the app just like you would on a physical Android device.
 
-7. **You're now ready for React Native Expo development.**
