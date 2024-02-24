@@ -76,7 +76,7 @@ To use the Android emulator in Android Studio, virtualization needs to be enable
 
    - Go to the [Android Studio website](https://developer.android.com/studio) and click on the "Download" button.
    - Once the download is complete, run the installer.
-   - Make sure to check the checkbox next to _'Android Virtual Device'_ in the 'Choose Components' section of the installation wizard (in the second window).
+   - Make sure to check the checkbox next to _'Android Virtual Device'_ in the _'Choose Components'_ section of the installation wizard (in the second window).
    - Follow the on-screen instructions.
 
 2. **Configure Android SDK:**
