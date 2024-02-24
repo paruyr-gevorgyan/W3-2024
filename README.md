@@ -89,8 +89,8 @@ To use the Android emulator in Android Studio, virtualization needs to be enable
      - Intel x86_64 Atom System Image
      - Google APIs Intel x86_64 Atom System Image
      - Google Play Intel x86_64 Atom System Image
-   - Next, select the _"SDK Tools"_ tab and check the box next to _"Show Package Details"_ here as well. Uncheck all boxes Look for and expand the _Android SDK Build-Tools_ entry, then make sure the following items are checked:
-     - expand the Android SDK Build-Tools entry, then make sure that 33.0.0 and 34.0.0 is selected.
+   - Next, select the _"SDK Tools"_ tab and check the box next to _"Show Package Details"_ here as well. _Uncheck all boxes_. Look for and expand the _Android SDK Build-Tools_ entry, then make sure the following items are checked:
+     - expand the Android SDK Build-Tools entry, then make sure that 34.0.0 and 33.0.0 are selected.
      - Android Emulator
      - Android SDK Platform-Tools
    - Finally, click _"Apply"_ to download and install the Android SDK and related build tools.
