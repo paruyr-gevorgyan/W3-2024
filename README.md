@@ -46,7 +46,7 @@ To install application and start the project, follow these steps:
 
 ## Running Application
 
-1. Install the **Expo Go** app on your iOS or Android phone and connect to the same wireless network as your computer.
+1. Install the **Expo Go** app on your iOS or Android device and connect to the same wireless network as your computer.
 
 2. On **Android**, use the Expo Go app to scan the QR code from your terminal to open your project.
 
