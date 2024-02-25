@@ -58,15 +58,15 @@ To run application on an Android emulator in Windows, follow these steps:
 
 Virtualization is important for running Android emulators. To check if virtualization is enabled on your system, follow these steps:
 
-- Right-click on the taskbar and select "Task Manager" from the context menu. Alternatively, you can press `Ctrl + Shift + Esc` to open Task Manager directly.
-- In the Task Manager window, click on the "Performance" tab.
-- Look for the "CPU" section and check if "Virtualization" is listed as "Enabled." If it's listed as "Disabled" or "Not supported," you need to enable virtualization in your system's BIOS or UEFI settings.
+- Right-click on the taskbar and select _"Task Manager"_ from the context menu. Alternatively, you can press `Ctrl + Shift + Esc` to open Task Manager directly.
+- In the Task Manager window, click on the _"Performance"_ tab.
+- Look for the "CPU" section and check if _"Virtualization"_ is listed as _"Enabled"_. If it's listed as _"Disabled"_ or _"Not supported_", you need to enable virtualization in your system's BIOS or UEFI settings.
 
 ### Enabling Virtualization in BIOS/UEFI
 
 To enable virtualization for Android Studio, you need to enable it in your system's BIOS or UEFI settings. Here's how:
 
-- Restart your computer and enter the **BIOS or UEFI settings**. The key to access the BIOS/UEFI settings may vary depending on your computer manufacturer (common keys include F2, Del, Esc, F10 or F12). Check your computer's documentation or manufacturer's website for the specific key.
+- Restart your computer and enter the **BIOS or UEFI settings**. The key to access the BIOS/UEFI settings may vary depending on your computer manufacturer (common keys include `F2`, `Del`, `Esc`, `F10` or `F12`). Check your computer's documentation or manufacturer's website for the specific key.
 
 - Once you are in the BIOS/UEFI settings, navigate to the **Advanced** or **CPU** section. Look for an option related to virtualization technology, such as "Intel Virtualization Technology" or "AMD-V".
 
