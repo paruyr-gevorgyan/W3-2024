@@ -60,7 +60,7 @@ Virtualization is important for running Android emulators. To check if virtualiz
 
 - Right-click on the taskbar and select _"Task Manager"_ from the context menu. Alternatively, you can press `Ctrl + Shift + Esc` to open Task Manager directly.
 - In the Task Manager window, click on the _"Performance"_ tab.
-- Look for the "CPU" section and check if _"Virtualization"_ is listed as _"Enabled"_. If it's listed as _"Disabled"_ or _"Not supported_", you need to enable virtualization in your system's BIOS or UEFI settings.
+- Look for the _"CPU"_ section and check if _"Virtualization"_ is listed as _"Enabled"_. If it's listed as _"Disabled"_ or _"Not supported_", you need to enable virtualization in your system's BIOS or UEFI settings.
 
 ### Enabling Virtualization in BIOS/UEFI
 
