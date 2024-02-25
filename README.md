@@ -134,5 +134,5 @@ To enable virtualization for Android Studio, you need to enable it in your syste
 6. **Run application on an Android emulator**
 
    - Start the project.
-   - After starting, you will find details and instructions related to project in the terminal or command prompt where the app is running, and press **"a"** to run android emulator.
+   - After starting, you will find details and instructions related to project in the terminal or command prompt where the app is running, and press `**"a"**` to run android emulator.
    - Wait for the app to load and start running in the emulator. You can interact with the app just like you would on a physical Android device.
